@@ -6,12 +6,12 @@ import br.senac.rn.agenda.repository.ContatoRepository;
 public class AgendaApplication {
 
     public static void main(String[] args) {
-        Contato caio = new Contato();
-        caio.setNome("Caio Castro");
-        caio.setFone("97474-5252");
+        Contato contato = new Contato();
+        contato.setNome("Michele Silva");
+        contato.setFone("3232-1515");
 
         ContatoRepository repository = new ContatoRepository();
-        repository.save(caio);
+        repository.save(contato);
     }
 
 }
